@@ -1,0 +1,72 @@
+Variabel (wadah untuk menyimpan data)
+
+cara membuat Variabel:
+    nama Variabel = "data"
+    nama Variabel = 201
+
+tipe data Variabel:
+    Integer (int) = bilangan bulat
+    Float (float) = bilangan desimal
+    String (str) = teks
+    Boolean (bool) = true/false
+
+contoh Variabel setiap data:
+    cek type:
+        $ print(type(nama_variabel))
+
+    int:
+        umur = 25
+        tahun_lahir = 2007
+        populasi_dunia = 7810000
+
+    float:
+        berat = 71.3
+        suhu = -10.3
+        tinggi = 172.5
+
+    str:
+        nama = "Putra"
+        kota = 'Jombang'
+        puisi = """
+        ini adalah puisi
+        terdiri dari baris
+        contoh saja
+        """
+
+    bool:
+        dia_murid = True
+        dia_mafia = False
+        dia_sertifikat = True
+
+Data Variabel:
+    basic:
+        nama = "Nasywa"
+        umur = 16
+        tinggi = 160.5
+        is_student = True
+
+    multiple:
+        a = b = c = "murid"                         # semua Variabel bernilai /murid
+        a, b, c = "murid", "kerja", "mahasiswa"     # a bernilai murid, b bernilai kerja, c bernilai mahasiswa
+        nama, umur = "arga", 18
+    
+    mengubah nilai:
+        skor = 75
+        skor = 90
+        print(skor)                                 # maka output nya 90 bukan 75, karena 90 adalah data terbaru
+
+    memanggil Variabel:
+        print(nama_variabel1, nama_variabel2)       # jika ingin menampilkan lebih dari satu data maka perlu menggunakan koma(,)
+
+input dari user:
+    nama = input("Masukkan nama anda: ")
+    print("Nama anda adalah ", nama)
+
+konver tipe data:
+    int()
+    float()
+    str()
+    bool()
+
+
+    

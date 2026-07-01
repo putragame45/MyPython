@@ -1,0 +1,43 @@
+kontrol alur program adalah cara untuk mengatur jalan nya program dari kondisi tertentu
+dengan kontrol alur, program bisa mengambil keputusan dan melakukan tindakan yang berbeda namun terkontrol.
+
+pernyataan if:
+    if digunakan untuk menjalankan kode jika kondisi tertentu bernilai True
+    setelah if harus ada titik dua :
+
+pernyataan if & else:
+    digunakan ketika menjalankan kode untuk kondisi True/False
+
+pernyataan elif:
+    digunalan untuk mengecek beberapa kondisi secara berurutan
+
+kontrol alur dengan operator logika:
+    and
+    or
+    not
+
+if di dalam if:
+    if username == "admin":
+        if password == "1234":
+            print("anda login")
+        else:
+            print("password salah")
+    else:
+        print("username salah")
+
+match case:
+    fitur alternatif yang lebih bersih untuk elif yang banyak
+    hari = input("hari kerja anda ").lower()
+    match hari:
+        case "senin" | "selasa" | "rabu" | "kamis" | "jumat":
+            print("hari kerja")
+        case "sabtu" | "minggu":
+            print("hari libur")
+        case _:
+            print("nama hari salah")
+
+conditional expression:
+    menulis kondisi sederhana dalam satu baris
+    angka = input("masukkan angka: ")
+    hasil = "positif" if angka > 0 else "non positif"
+    print("angka anda, ",hasil)

@@ -1,0 +1,58 @@
+perulangan/loop cara menjalankan kode yang sama berulang kali 
+dengan perulangan bisa menghemat waktu dan efisien 
+
+for loop:
+    digunakan untuk mengulang kode sejumlah tertentu
+    for loop menggunakan function range()
+    for i in range(5):
+        print("hidup jokowi")
+    
+for in str:
+    nama = "python"
+    for kata in nama:
+        print(kata)
+
+while loop:
+    mengulang kode jika kondisi masih True
+    angka = 1
+    while angka <5:
+        print(angka)
+        angka += 1
+
+break & continue
+    break digunakan untuk menghentikan perulangan
+    continue digunakan untuk melanjutkan ke iterasi selanjutnya
+     
+loop dengan else:
+    for huruf in kata:
+        if huruf == hurufdicari:
+            print("hurus", hurufdicari, "di temukan')
+            break
+        else:
+            print("huruf", hurufdicari, "tidak di temukan")
+
+while dengan else:
+    percobaan = 0
+    max_percobaan = 3
+    while percobaan < max_percobaan:
+        password = input("masukkan password: ")
+        percobaan += 1
+
+        if password == passwordbenar:
+            print("password benar")
+            break
+        
+        else:
+            print("password salah", 
+            max percobaan - percobaan)
+    else:
+        print("error")
+
+loop di dalam loop:
+    print("tabel perkalian 1-5")
+    for i in range(1, 6):
+        for j in range(1, 6):
+            for j in range(1, 6):
+                hasil = i * j
+                print(i, "x", j, "=", hasil)
+            print("====") 

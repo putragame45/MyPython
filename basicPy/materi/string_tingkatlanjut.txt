@@ -1,0 +1,103 @@
+str (string):
+    untuk menggabungkan str pakai tanda +
+    tipe data str tidak bisa digabungkan ke tipe data lain
+    wajib di konver dulu tipe data nya menjadi str()
+
+panjang str:
+    gunakan len() untuk cek panjang string
+
+akses nilai pada str:
+    posisi (index) selalu di mulai dari angka 0
+    gunakan tanda [] dan sebutkan index nya
+    gunakan index negative untuk memanggil dari belakang
+        print(nama_variabel[0])
+        print(nama_variabel[1])
+        print(nama_variabel[-1])
+
+string slicing:
+    mengambil sebagian nilai pada Variabel string
+    gunakan [] terdapat dua posisi index dan di pisahkan :
+        print(nama_variabel[1:2])
+        print(nama_variabel[:3])
+        print(nama_variabel[2:])
+
+string methods:
+    upper()
+    lower()
+    title()
+    capitalize()
+    strip()                     menghilangkan karakter kosong
+    replace(dari, menjadi)      mengganti bagian tertentu dalam str
+    count()                     menghitung berapa kali teks muncul
+    find()                      mencari posisi teks muncul
+    dll
+
+escape characters:
+    \n new line
+    \t tab
+
+string interpolation:
+    f-str adalah cara terbaru untuk str interpolation
+    dengan menambahkan f pada awal str
+        f"nama saya {nama_variabel1}, umur {nama_variabel2}"
+    f-str dapat eksekusi langsung di dalam nya
+        f"total: {harga * jumlah}"
+        f"halo {nama.upper()}"
+
+str operator:
+    simbol untuk melakukan operasi pada Variabel:
+
+        operator aritmatika:
+            +   pemjumlahan
+            -   pengurangan
+            *   perkalian
+            /   pembagian
+            //  pembagian bulat
+            %   sisa pembagian
+            **  pangkat
+
+        operator assignment:
+            operator yang menggabungkan opr aritmatika dengan opr assignment
+            x = 10
+            print(x)
+            x += 5
+            print(x)
+        
+        operator perbandingan:
+            untuk membandingkan dua nilai, output dari opr ini True/False
+            >   lebih besar dari
+            <   lebih kecil dari
+            >=  lebih besar/sama dengan dari
+            <=  lebih kecil/sama dengan dari
+            ==  sama dengan dari
+            !=  tidak sama dengan dari
+        
+        operator logika:
+            digunakan untuk memodifikasi nilai Boolean
+            and hasil True apabila kedua kondisi True
+            or  hasil True apabila salah satu kondisi True
+            not membalikan nilai bool
+        
+        operator string:
+            khusus string saja
+            +   menambah str
+            *   mengulangi str
+            in  cek apakah text ada dalam str
+
+        prioritas operator:
+            **
+            *
+            /
+            //
+            %
+            +
+            -
+            ==
+            !=
+            <
+            >
+            <=
+            >=
+            not
+            and
+            or                                                            

@@ -1,0 +1,24 @@
+Struktur Data adalah cara untuk menyimpan dan mengorganisir data dalam program
+
+list adalah sekumpulan data yang busa menyimpan banyak nilai dalam satu variabel
+list ditulis []
+variabel = [
+    "apel",
+    "jeruk",
+    "mangga"
+]
+
+manipulasi list:
+    index di mulai dari 0
+    menambah element ke list bisa dengan 
+    append untuk di akhir dan 
+
+    insert untuk setelah index
+    menghapus element ke list bisa dengan 
+    remove atau 
+    method pop()
+
+    untuk menghitung panjang list gunakan function len()
+    list bias di gabungkan dengan list lain memnggunakan operator +
+    bisa di iterasi seperti for loop
+

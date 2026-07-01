@@ -1,0 +1,29 @@
+[
+    {
+        "id": "20260630-002",
+        "tanggal_dibuat": "30-06-2026",
+        "judul": "BUAT PPT JS",
+        "deskripsi": "BU MARIA",
+        "deadline": "10-03-2027",
+        "status": "[Selesai]",
+        "tanggal_selesai": "30-06-2026"
+    },
+    {
+        "id": "20260630-001",
+        "tanggal_dibuat": "30-06-2026 12:43:18",
+        "judul": "BUAT PPT PYTHON",
+        "deskripsi": "PAK GALEH",
+        "deadline": "21-03-2027",
+        "status": "[Selesai]",
+        "tanggal_selesai": "30-06-2026"
+    },
+    {
+        "id": "20260630-003",
+        "tanggal_dibuat": "30-06-2026",
+        "judul": "PPT C++ ",
+        "deskripsi": "BU ALYA",
+        "deadline": "05-03-2027",
+        "status": "[Belum Selesai]",
+        "tanggal_selesai": ""
+    }
+]
